@@ -1,46 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-.calc {
-    padding: 10px;
-    border-radius: 1em;
-    height: 380px;
-    width: 400px;
-    margin: auto;
-    background-color:black;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
 }
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    height: 500px;
+    width:400px;
+}
+
 .display {
     font-family: 'Orbitron', sans-serif;
-    background-color: #dcdbe1;
-    border: solid black 0.5px;
-    color: black;
+    grid-column: 1 / span 4;
+    background-color: rgb(97, 96, 96);
+    border: 1px solid rgb(97, 96, 96);
     border-radius: 10px;
-    width: 100%;
-    height: 65%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    color:white;
 }
-#btn {
-    background-color:rgba(0, 0, 255, 0.655);
-    width:100%;
-}
-input[type=button] {
-    font-family: 'Orbitron', sans-serif;
-    background-color:#323330d7;
-    color:gray;
-    border: solid black 0.5px;
-    width: 100%;
+
+.btn {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
     border-radius: 10px;
-    height: 70%;
-    outline: none;
-}
-input[type=button]:hover {
+    cursor: pointer;
     background-color: #323330d7;
-    color:white;
-    transition: ease-in-out;
+    color: gray;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Orbitron', sans-serif;
 }
-body{
-    background-color: ;
-    margin-top: 10%;
+
+.btn:hover {
+    color: black;
+    background-color: #d0d0d0;
 }
-#btn-1{
+
+#diff{
     background-color: #eda80c;
-    border-color: white;
     color:white;
+}
+#diff-1{
+    background-color: gray;
+    color:white
 }
