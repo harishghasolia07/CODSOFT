@@ -1,11 +1,20 @@
-function clearScreen() {
-    document.getElementById("output").value = "";
+let displayValue = "";
+
+function AddElement(value) {
+    displayValue += value;
+    document.getElementById("display").textContent = displayValue;
 }
-function display(value) {
-    document.getElementById("output").value += value;
+
+function clearDisplay() {
+    displayValue = "";
+    document.getElementById("display").textContent = "0";
 }
+
 function calculate() {
-    var p = document.getElementById("output").value;
-    var q = eval(p);
-    document.getElementById("output").value = q;
+    try {
+        displayValue = eval(displayValue).toString();
+        document.getElementById("display").textContent = displayValue;
+    } catch (error) {
+        document.getElementById("display").textContent = "Error";
+    }
 }
