@@ -6,10 +6,6 @@
    - [Prerequisites](#prerequisites)
    - [How to Use](#how-to-use)
 - [Example](#example)
-- [Contributing](#contributing)
-- [Issues](#issues)
-- [License](#license)
-- [Contact](#contact)
 
 ## Overview
 
@@ -37,9 +33,9 @@ Before you can use this calculator, you need:
 1. Open your web browser and navigate to [calculator_project_url_here].
 2. The calculator interface will be displayed.
 3. Use your mouse or keyboard to input numbers and operators.
-4. Click the "Calculate" button or press the "Enter" key to perform the operation.
+4. Click the "=" button to perform the operation.
 5. The result will be displayed on the screen.
-6. To clear the calculator and start a new calculation, click the "Clear" button.
+6. To clear the calculator and start a new calculation, click the "C" button.
 
 ## Example
 
@@ -48,7 +44,7 @@ Let's say you want to add two numbers:
 1. Enter the first number: 5
 2. Enter the addition operator: +
 3. Enter the second number: 3
-4. Click the "Calculate" button or press "Enter."
+4. Click the "=" button.
 
 The calculator will display:
 
