@@ -1,6 +1,6 @@
 # ToDo List Website
 
-![ToDo List Website](<img src="./Screenshot from 2023-10-04 22-48-23.png"/>)
+![ToDo List Website](Screenshot%20from%202023-10-04%2022-48-23.png)
 
 ## Table of Contents
 
