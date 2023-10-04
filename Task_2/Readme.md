@@ -1,6 +1,6 @@
 # ToDo List Website
 
-![ToDo List Website](todo-list-screenshot.png)
+![ToDo List Website](Screenshot from 2023-10-04 22-48-23.png)
 
 ## Table of Contents
 
