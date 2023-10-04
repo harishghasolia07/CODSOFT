@@ -10,8 +10,6 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -24,22 +22,14 @@ The ToDo List Website is a simple web application that allows users to create an
 - User-friendly interface for managing tasks.
 - Create multiple lists to organize your tasks.
 - Add, edit, and delete tasks as needed.
-- Mark tasks as completed or incomplete.
-- Filter tasks by status (completed, incomplete).
-- User authentication for secure access to your lists.
-- Collaborative lists: Share lists with other users and work together.
 - Mobile-responsive design for use on various devices.
-- Dark mode for a comfortable viewing experience at night.
-- Customizable user profile settings.
+
 
 ## Getting Started
 
 ### Prerequisites
 
-Before you can run the ToDo List Website, ensure you have the following prerequisites installed on your system:
-
-- Node.js: [Download and Install Node.js](https://nodejs.org/)
-- MongoDB: [Download and Install MongoDB](https://www.mongodb.com/try/download/community)
+A modern web browser (Chrome, Firefox, Safari, Edge, etc.)
 
 ### Installation
 
@@ -47,3 +37,19 @@ Before you can run the ToDo List Website, ensure you have the following prerequi
 
    ```bash
    git clone https://github.com/yourusername/todo-list-website.git
+
+2. Open the project folder.
+
+```bash
+cd todo-list-website
+```
+
+3. Run `index.html` in your preferred web browser.
+
+## Usage
+
+1. Open the `index.html` file.
+2. Add your task.
+3. Click on the "Add Task" button.
+4. You can edit or delete your task.
+---
